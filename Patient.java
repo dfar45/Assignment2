@@ -113,13 +113,4 @@ public class Patient {
 			+"\nPhone Number: "+phoneNumber
 			+"\nEmergency Contact: "+buildEmergencyContact());
 	}
-	
-	boolean isValidEmergencyPhoneNumber() {
-		char dash = getPhoneNumber().charAt(3);
-		if(dash == '-') {
-			return true;
-		} else {
-			return false;
-		}
-	}
 }
