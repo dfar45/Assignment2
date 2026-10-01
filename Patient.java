@@ -20,13 +20,19 @@ public class Patient {
 		city = "";
 		state = "";
 		zip = 0;
+		phoneNumber = "";
+		emergencyName = "";
+		emergencyNumber = "";
 	}
 	public Patient(String f, String m, String l) {
 		firstName = f;
 		middleName = m;
 		lastName = l;
 	}
-	public Patient(String a, String c, String s, int z, String phone, String eName, String ePhone) {
+	public Patient(String f, String m, String l, String a, String c, String s, int z, String phone, String eName, String ePhone) {
+		firstName = f;
+		middleName = m;
+		lastName = l;
 		address = a;
 		city = c;
 		state = s;
