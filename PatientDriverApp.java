@@ -44,7 +44,7 @@ public class PatientDriverApp {
 		System.out.println();
 		System.out.println("Patient Information:");
 		System.out.println("--------------");
-		System.out.println(patient);
+		System.out.println(patient.toString);
 		char dash1 = patient.getPhoneNumber().charAt(3);
 		char dash2 = patient.getPhoneNumber().charAt(7);
 		System.out.print("Phone Valid: ");
