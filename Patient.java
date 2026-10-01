@@ -29,7 +29,8 @@ public class Patient {
 		middleName = m;
 		lastName = l;
 	}
-	public Patient(String f, String m, String l, String a, String c, String s, int z, String phone, String eName, String ePhone) {
+	public Patient(String f, String m, String l, String a, String c, String s,
+				   int z, String phone, String eName, String ePhone) {
 		firstName = f;
 		middleName = m;
 		lastName = l;
